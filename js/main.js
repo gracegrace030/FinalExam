@@ -18,7 +18,7 @@ myImmutableArray.push("John", "Tim", "Jason");
 myImmutableArray.shift();
 
 // Step 5 Remove the second array item from the array
-myImmutableArray.slice(1,2);
+myImmutableArray.slice(1,1);
 
 // Step 6: Using array filter, iterate over the array items and remove all items beginning with the letter "J". Store the result in a new, block scoped, mutable variable
 var nameWithoutJ = myImmutableArray.filter((name) => {return name[0] !== 'J'});
