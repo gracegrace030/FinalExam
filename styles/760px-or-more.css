@@ -1,0 +1,10 @@
+@media only screen and (min-width: 760px) {
+    #main-content{
+        flex-direction: row-reverse;
+    }
+
+    aside{
+        width: 800px;
+        margin-right: 2em;
+    }
+}

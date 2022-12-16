@@ -1,0 +1,53 @@
+@media only screen and (min-width: 560px) {
+    /* NAVIGATION */
+    #main-nav > ul {
+        height: 60px;
+    }
+
+    #main-nav a{
+        padding: 24px 1.5em;
+    }
+
+    /* HEADER */
+    h1{
+        font-size: 40px;
+        margin: 0.1em;
+    }
+    
+    #main-header > h2{
+        display: inline;
+    }
+
+    button{
+        cursor: pointer;
+        font-size: 20px;
+        padding: 1.1em;
+        border: 0;
+        border-radius: 6px;
+        color:#fff;
+        background-color: #363B47;
+    }
+
+    /* MAIN CONTENT */
+    #main-content figure{
+        margin-bottom: 0;
+    }
+
+    #figure-one,  #figure-two{
+        width: 300px;
+        margin: 0 1em;
+    }
+   
+    #figure-one{
+        float: left;
+    }
+
+    #figure-two{
+        float: right;
+    }
+
+    /* MAIN */
+    main{
+        display: block;
+    }
+}
